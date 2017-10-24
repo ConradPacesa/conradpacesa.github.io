@@ -1,17 +1,17 @@
 ---
 layout: post
 title: BlocChat
-thumbnail-path: "img/bloc-chat-2.PNG"
+thumbnail-path: "img/bloc-chat/bloc-chat-room.PNG"
 short-description: BlocChat is a messaging application built with AngularJS and Firebase.
 
 ---
 
 {:.center}
-![]({{ site.baseurl }}/img/bloc-chat-2.PNG)
+![]({{ site.baseurl }}/img/bloc-chat/bloc-chat-room.PNG)
 
 ## Summary
 
-BlocChat is a web-based chat application and the second project I completed as a part of the Bloc curriculum. Like BlocJams, BlocChat uses AngularJS along with Firebase for the back-end.
+BlocChat is a web-based chat application and the second project I completed as a part of the Bloc curriculum. Like BlocJams, BlocChat uses AngularJS along with [Firebase](https://firebase.google.com/) for the back-end.
 
 ## Explanation
 
@@ -23,7 +23,7 @@ BlocChat is a chat-room based application, with multiple different chat-rooms th
 
 ## Solution
 
-In order create chat-rooms for the application, I used Firebase's database to store my chat-rooms. I also included UI Bootstrap in my application to create the pop-up modal, where the user could create and name a new chat-room. The new chat-room created by the user is added to the Firebase database. I also leveraged the UI Bootstrap modal as the method for the user to set their username, which would appear with their messages in the chat rooms. I used Angular's $cookies service to store and track their username throughout the app.  
+In order create chat-rooms for the application, I used Firebase's database to store my chat-rooms. I also included [UI Bootstrap](https://angular-ui.github.io/bootstrap/) in my application to create the pop-up modal, where the user could create and name a new chat-room. The new chat-room created by the user is added to the Firebase database. I also leveraged the UI Bootstrap modal as the method for the user to set their username, which would appear with their messages in the chat rooms. I used Angular's $cookies service to store and track their username throughout the app.  
 
 Once chat-rooms were created, I needed a way to display messages that are relevant to each chat room. I did this by associating each message with a unique chat-room id, so that when the user selects a chat-room, my app would query the Firebase database and filter for all messages that matched the chat-room id. The filtered messages would then be shown to the user after they select a chat room.
 
@@ -36,3 +36,7 @@ Building BlocChat went much more smoothly than building BlocJams, mainly because
 ## Conclusion
 
 BlocChat further reinforced what I had learned in BlocJams in terms of Firebase and AngularJS. It went further to teach me self-sufficiency in building by own application and using documentation to learn how to use external API's and framework features.
+
+## Links
+
+[Website](http://fishmonger-valentine-40684.netlify.com/)  &#124;  [Github Repository](https://github.com/ConradPacesa/bloc-chat)

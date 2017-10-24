@@ -1,13 +1,13 @@
 ---
 layout: post
 title: BlocJams
-thumbnail-path: "img/bloc-jams-2.PNG"
+thumbnail-path: "img/bloc-jams/bloc-jams-landing.PNG"
 short-description: BlocJams is a music player app built with AngularJS and Firebase.
 
 ---
 
 {:.center}
-![]({{ site.baseurl }}/img/bloc-jams-3.PNG)
+![]({{ site.baseurl }}/img/bloc-jams/bloc-jams-landing.PNG)
 
 ## Summary
 
@@ -23,7 +23,7 @@ After building the application in AngularJS, for extra credit, I was tasked with
 
 ## Solution
 
-Up until this point in my education with Bloc, I had been focused on front-end web development and did not yet possess the knowledge of back-end development needed to implement these features. I used Google's Firebase API along with AngularFire to provide the back-end services for BlocJams, which included authentication and database.
+Up until this point in my education with Bloc, I had been focused on front-end web development and did not yet possess the knowledge of back-end development needed to implement these features. I used Google's [Firebase](https://firebase.google.com/) API along with AngularFire to provide the back-end services for BlocJams, which included authentication and database.
 
 I decided to use Firebase to authenticate with a third party identity provider. I used GitHub as the identity provider to provide a fast and simple way for a user to authenticate and begin using the application. Once I was able to implement the authentication service, I had to modify the application to show/hide certain elements depending on the users authentication state. I also had to modify the router to restrict access to the application to authenticated users.
 
@@ -38,3 +38,17 @@ I was able to get authentication working with GitHub as the identity provider an
 ## Conclusion
 
 This project was an excellent way for me to get started with front-end web development. It taught me how to use HTML, CSS and vanilla JS, in addition to libraries (jQuery), and my first framework (AngularJS). I also learned how to use third party API's to integrate external services into my application.
+
+## Links
+
+[Website](http://poacher-swamps-16720.netlify.com)  &#124;  [Github Repository](https://github.com/ConradPacesa/bloc-jams-angular)
+
+## Images
+
+### Collection view
+
+![]({{ site.baseurl }}/img/bloc-jams/bloc-jams-collection.PNG)
+
+### Album view
+
+![]({{ site.baseurl }}/img/bloc-jams/bloc-jams-album.PNG)
